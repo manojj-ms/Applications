@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:text="Accounts"
+        android:textSize="22dp"
+        style="@style/Style_one"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345sp"
+        android:layout_marginTop="-40dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/index4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:text="Orders made from over 1M stores on our network will sync with Arrive when using the email lists below."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        style="@style/Style_one"
+        android:text="Read more"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        style="@style/Style_two"
+        android:text="Primary email"
+        />
+
+    <ImageView
+        android:id="@+id/image_vie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345sp"
+        android:layout_marginTop="-30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/index3"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/image_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/index1"/>
+
+
+
+    <ImageView
+        android:id="@+id/image_view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="-55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/index2"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        style="@style/Style_two"
+        android:text="Additional email"
+        />
+
+    <ImageView
+        android:id="@+id/image_vi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345sp"
+        android:layout_marginTop="-30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/index"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:text="Add another email to track all orders in one place"
+        />
+    
+
+</LinearLayout>

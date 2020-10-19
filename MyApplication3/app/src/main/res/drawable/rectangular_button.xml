@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    //There are many other shapes also available they are rectangle,ring,line and oval
+    <solid android:color="#0000ff"/> //applying the colour to the button. <stroke android:width="0dp" android:color="#0000ff" />
+    <corners android:radius="10dp" />
+
+    Read more: http://mrbool.com/how-to-customize-different-buttons-in-android/27747#ixzz6aY1ECfX2
+</shape>

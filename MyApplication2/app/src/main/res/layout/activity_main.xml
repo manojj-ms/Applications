@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <include layout="@layout/actionbar"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group :"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="-45sp"
+        android:layout_marginRight="100dp">
+
+    </EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_brightness_low_24"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="-35dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Mode :"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp">
+
+    </TextView>
+
+
+
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="-30dp"
+        android:textSize="25dp"
+        android:checked="true"
+        android:textOff="OFF"
+        android:textOn="ON"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Cycle :"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="-27dp"
+        android:textSize="25dp"
+        android:checked="true"
+        android:textOff="OFF"
+        android:textOn="ON"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleaning Cycle Timings :"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-1dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="120dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="108dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="120dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker3"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="218dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="120dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker4"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="45dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="-13dp"
+        android:layout_marginRight="120dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker5"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="175dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="120dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
